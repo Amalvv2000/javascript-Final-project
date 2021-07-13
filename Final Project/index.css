@@ -1,0 +1,57 @@
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe UI;
+}
+
+
+.container{
+    width: 100%;
+    background-image: url("https://i0.wp.com/getwallpapers.com/wallpaper/full/0/1/a/1277736-best-cartoon-characters-wallpaper-1920x1080-for-ipad.jpg?resize=816%2C9999");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.header{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.opened{
+    display: none;
+}
+
+
+
+
+
+.card{
+    height: 300px;
+    width: 18%;
+    background-color:black;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color:#4d94ff;
+}
